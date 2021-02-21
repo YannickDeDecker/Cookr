@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "https://yannickdedecker.github.io/Cookr/static/css/main.dba9a2fc.chunk.css",
-    "main.js": "https://yannickdedecker.github.io/Cookr/static/js/main.ef53dc07.chunk.js",
-    "main.js.map": "https://yannickdedecker.github.io/Cookr/static/js/main.ef53dc07.chunk.js.map",
+    "main.js": "https://yannickdedecker.github.io/Cookr/static/js/main.f78746db.chunk.js",
+    "main.js.map": "https://yannickdedecker.github.io/Cookr/static/js/main.f78746db.chunk.js.map",
     "runtime-main.js": "https://yannickdedecker.github.io/Cookr/static/js/runtime-main.c86e735b.js",
     "runtime-main.js.map": "https://yannickdedecker.github.io/Cookr/static/js/runtime-main.c86e735b.js.map",
     "static/css/2.150d169a.chunk.css": "https://yannickdedecker.github.io/Cookr/static/css/2.150d169a.chunk.css",
@@ -28,6 +28,6 @@
     "static/css/2.150d169a.chunk.css",
     "static/js/2.e33a8e95.chunk.js",
     "static/css/main.dba9a2fc.chunk.css",
-    "static/js/main.ef53dc07.chunk.js"
+    "static/js/main.f78746db.chunk.js"
   ]
 }
