@@ -18,7 +18,7 @@ function Article() {
   let { name } = useParams();
 
   useEffect(() => {
-    fetch(`http://localhost:3001/recipes/${name}`)
+    fetch(`${process.env.REACT_APP_BACKEND}/recipes/${name}`)
       .then((res) => res.json())
       .then((json) => {
         setRecipe(json);

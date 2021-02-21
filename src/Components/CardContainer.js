@@ -9,7 +9,7 @@ export default class CardContainer extends Component {
   }
 
   componentDidMount() {
-    fetch("http://localhost:3001/recipes")
+    fetch(`${process.env.REACT_APP_BACKEND}/recipes`)
       .then((data) => data.json())
       .then((json) => this.setState({ recipes: json }));
   }
