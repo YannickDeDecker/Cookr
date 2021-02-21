@@ -34,7 +34,7 @@ function Article() {
         <div
           id="showcase-recipe-article"
           style={
-            {backgroundImage: `url(http://localhost:3001/${recipe.imgmain})`,
+            {backgroundImage: `url(${process.env.REACT_APP_BACKEND}/${recipe.imgmain})`,
             backgroundRepeat: "no-repeat",
             backgroundSize: "cover",
             backgroundPosition: "center"}

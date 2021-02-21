@@ -11,7 +11,7 @@ const About = () => {
         <div className="container">
           <div className="row">
             <div className="colAbout col-md-6">
-                <h1>Over Mezelf</h1>
+                <h1>Over Mij</h1>
               <h2>
                 Ik ben een Grafisch Vormgever en Front-End Developer uit
                 Boortmeerbeek.
