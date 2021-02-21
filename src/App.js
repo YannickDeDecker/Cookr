@@ -1,6 +1,6 @@
 import React from 'react'
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Route,
 } from "react-router-dom";
 import Home from './Pages/Home'
@@ -13,7 +13,7 @@ import Article from './Pages/Article'
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <div>
           <Navbar/>
         </div>
