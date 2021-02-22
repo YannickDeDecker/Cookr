@@ -7,6 +7,8 @@ import {
   faAward,
 } from "@fortawesome/free-solid-svg-icons";
 import "./Article.css";
+import styled, { keyframes } from "styled-components";
+import { fadeInDown, slideInUp } from "react-animations";
 
 function Article() {
   const [isLoading, setLoading] = useState(true);
@@ -14,6 +16,17 @@ function Article() {
   const element = <FontAwesomeIcon className="icon" icon={faCheckCircle} />;
   const elementTwo = <FontAwesomeIcon className="icon" icon={faClock} />;
   const elementThree = <FontAwesomeIcon className="icon" icon={faAward} />;
+
+  const bounceAnimation = keyframes`${fadeInDown}`;
+  const slideAnimation = keyframes`${slideInUp}`;
+
+  const BouncyDiv = styled.div`
+    animation: 2s ${bounceAnimation};
+  `;
+
+  const SlideDiv = styled.div`
+    animation: 2s ${slideAnimation};
+  `;
 
   let { name } = useParams();
 
@@ -33,20 +46,24 @@ function Article() {
       <div>
         <div
           id="showcase-recipe-article"
-          style={
-            {backgroundImage: `url(${process.env.REACT_APP_BACKEND}/${recipe.imgmain})`,
+          style={{
+            backgroundImage: `url(${process.env.REACT_APP_BACKEND}/${recipe.imgmain})`,
             backgroundRepeat: "no-repeat",
             backgroundSize: "cover",
-            backgroundPosition: "center"}
-          }
+            backgroundPosition: "center",
+          }}
         >
           <div className="content">
-          <h1>{recipe.name}</h1>
-          <ul id="tag-list">
-            {recipe.tags.map((item, index) => (
-              <li key={index}> {item}</li>
-            ))}
-          </ul>
+            <BouncyDiv>
+              <h1>{recipe.name}</h1>
+            </BouncyDiv>
+            <SlideDiv>
+              <ul id="tag-list">
+                {recipe.tags.map((item, index) => (
+                  <li key={index}> {item}</li>
+                ))}
+              </ul>
+            </SlideDiv>
           </div>
         </div>
         <div className="container">
