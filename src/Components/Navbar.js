@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import SearchBar from "./SearchBar";
 import NavbarBrand from "./NavbarBrand";
 import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 
-export default function Navbar() {
+const Navbar = (props) => {
+  const [isNavCollapsed, setIsNavCollapsed] = useState(true);
+  const handleNavCollapse = () => setIsNavCollapsed(!isNavCollapsed);
+
   return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-dark mt-5">
@@ -16,12 +19,13 @@ export default function Navbar() {
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent"
-            aria-expanded="false"
+            aria-expanded={!isNavCollapsed ? true : false}
             aria-label="Toggle navigation"
+            onClick={handleNavCollapse}
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <div className={`${isNavCollapsed ? 'collapse' : ''} navbar-collapse`} id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
                 <NavLink
@@ -54,11 +58,13 @@ export default function Navbar() {
                   Contact
                 </NavLink>
               </li>
+              <SearchBar />
             </ul>
-            <SearchBar />
           </div>
         </div>
       </nav>
     </div>
   );
-}
+};
+
+export default Navbar;
