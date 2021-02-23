@@ -17,3 +17,11 @@
 #search-bar::placeholder{
     color: var(--dark-bg-color);
 }
+
+@media only screen and (max-width: 992px) {
+    #search-bar{
+        margin: 1rem auto;
+        width: 250px;
+        text-align: center;
+    }
+}
