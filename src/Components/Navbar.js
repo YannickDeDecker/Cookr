@@ -58,7 +58,7 @@ const Navbar = (props) => {
                   Contact
                 </NavLink>
               </li>
-              <SearchBar />
+              <SearchBar/>
             </ul>
           </div>
         </div>

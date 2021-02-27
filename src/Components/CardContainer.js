@@ -9,7 +9,7 @@ export default class CardContainer extends Component {
   }
 
   componentDidMount() {
-    fetch(`${process.env.REACT_APP_BACKEND}/recipes`)
+    fetch(this.props.url)
       .then((data) => data.json())
       .then((json) => this.setState({ recipes: json }));
   }
@@ -19,6 +19,7 @@ export default class CardContainer extends Component {
       <div>
         <section class="gallery-block cards-gallery">
           <div className="container">
+            <p className={this.props.counter ? '' : 'd-none'}>{this.state.recipes.length} recepten gevonden</p>
             <div className="row">
               {this.state.recipes.map((item, i) => {
                 return (
