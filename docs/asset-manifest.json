@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "https://yannickdedecker.github.io/Cookr/static/css/main.65d3da19.chunk.css",
-    "main.js": "https://yannickdedecker.github.io/Cookr/static/js/main.883f52da.chunk.js",
-    "main.js.map": "https://yannickdedecker.github.io/Cookr/static/js/main.883f52da.chunk.js.map",
+    "main.css": "https://yannickdedecker.github.io/Cookr/static/css/main.c9a164cc.chunk.css",
+    "main.js": "https://yannickdedecker.github.io/Cookr/static/js/main.f2cdd002.chunk.js",
+    "main.js.map": "https://yannickdedecker.github.io/Cookr/static/js/main.f2cdd002.chunk.js.map",
     "runtime-main.js": "https://yannickdedecker.github.io/Cookr/static/js/runtime-main.c86e735b.js",
     "runtime-main.js.map": "https://yannickdedecker.github.io/Cookr/static/js/runtime-main.c86e735b.js.map",
     "static/css/2.150d169a.chunk.css": "https://yannickdedecker.github.io/Cookr/static/css/2.150d169a.chunk.css",
-    "static/js/2.f5c8c719.chunk.js": "https://yannickdedecker.github.io/Cookr/static/js/2.f5c8c719.chunk.js",
-    "static/js/2.f5c8c719.chunk.js.map": "https://yannickdedecker.github.io/Cookr/static/js/2.f5c8c719.chunk.js.map",
+    "static/js/2.5e2cd113.chunk.js": "https://yannickdedecker.github.io/Cookr/static/js/2.5e2cd113.chunk.js",
+    "static/js/2.5e2cd113.chunk.js.map": "https://yannickdedecker.github.io/Cookr/static/js/2.5e2cd113.chunk.js.map",
     "index.html": "https://yannickdedecker.github.io/Cookr/index.html",
     "static/css/2.150d169a.chunk.css.map": "https://yannickdedecker.github.io/Cookr/static/css/2.150d169a.chunk.css.map",
-    "static/css/main.65d3da19.chunk.css.map": "https://yannickdedecker.github.io/Cookr/static/css/main.65d3da19.chunk.css.map",
-    "static/js/2.f5c8c719.chunk.js.LICENSE.txt": "https://yannickdedecker.github.io/Cookr/static/js/2.f5c8c719.chunk.js.LICENSE.txt",
+    "static/css/main.c9a164cc.chunk.css.map": "https://yannickdedecker.github.io/Cookr/static/css/main.c9a164cc.chunk.css.map",
+    "static/js/2.5e2cd113.chunk.js.LICENSE.txt": "https://yannickdedecker.github.io/Cookr/static/js/2.5e2cd113.chunk.js.LICENSE.txt",
     "static/media/ContactForm.css": "https://yannickdedecker.github.io/Cookr/static/media/Background.3df2eb4b.png",
     "static/media/Profile-Pic.769d4061.png": "https://yannickdedecker.github.io/Cookr/static/media/Profile-Pic.769d4061.png",
     "static/media/contact-photo.2fe3ac3d.jpg": "https://yannickdedecker.github.io/Cookr/static/media/contact-photo.2fe3ac3d.jpg",
@@ -21,14 +21,14 @@
     "static/media/laptop-solid.b464c86f.svg": "https://yannickdedecker.github.io/Cookr/static/media/laptop-solid.b464c86f.svg",
     "static/media/linkedin-in-brands.782cf906.svg": "https://yannickdedecker.github.io/Cookr/static/media/linkedin-in-brands.782cf906.svg",
     "static/media/logo.abc82bd7.png": "https://yannickdedecker.github.io/Cookr/static/media/logo.abc82bd7.png",
-    "static/media/Showcase.css": "https://yannickdedecker.github.io/Cookr/static/media/pexels-lumn-604969.97fa94b4.jpg",
+    "static/media/Showcase.css": "https://yannickdedecker.github.io/Cookr/static/media/pexels-lumn-604969.214f0272.jpg",
     "static/media/phone-alt-solid.a242da1f.svg": "https://yannickdedecker.github.io/Cookr/static/media/phone-alt-solid.a242da1f.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.c86e735b.js",
     "static/css/2.150d169a.chunk.css",
-    "static/js/2.f5c8c719.chunk.js",
-    "static/css/main.65d3da19.chunk.css",
-    "static/js/main.883f52da.chunk.js"
+    "static/js/2.5e2cd113.chunk.js",
+    "static/css/main.c9a164cc.chunk.css",
+    "static/js/main.f2cdd002.chunk.js"
   ]
 }
