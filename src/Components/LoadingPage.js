@@ -1,11 +1,11 @@
 import "../Components/LoadingPage.css";
 import React from "react";
-import loadingGIF from '../Images/loadingpage-gif.gif';
+import { Spinner } from 'reactstrap';
 
 export default function LoadingPage() {
   return (
     <div className="Loading">
-        <img src={loadingGIF} alt="Cute cat eating chips" />
+        <Spinner style={{ width: '3rem', height: '3rem' }} />{' '}
         <h1>Loading Recipes...</h1>
     </div>
   );

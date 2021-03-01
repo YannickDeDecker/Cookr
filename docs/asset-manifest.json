@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "https://yannickdedecker.github.io/Cookr/static/css/main.c9a164cc.chunk.css",
-    "main.js": "https://yannickdedecker.github.io/Cookr/static/js/main.f2cdd002.chunk.js",
-    "main.js.map": "https://yannickdedecker.github.io/Cookr/static/js/main.f2cdd002.chunk.js.map",
+    "main.css": "https://yannickdedecker.github.io/Cookr/static/css/main.53b6efdb.chunk.css",
+    "main.js": "https://yannickdedecker.github.io/Cookr/static/js/main.f4df4d4b.chunk.js",
+    "main.js.map": "https://yannickdedecker.github.io/Cookr/static/js/main.f4df4d4b.chunk.js.map",
     "runtime-main.js": "https://yannickdedecker.github.io/Cookr/static/js/runtime-main.c86e735b.js",
     "runtime-main.js.map": "https://yannickdedecker.github.io/Cookr/static/js/runtime-main.c86e735b.js.map",
     "static/css/2.150d169a.chunk.css": "https://yannickdedecker.github.io/Cookr/static/css/2.150d169a.chunk.css",
-    "static/js/2.5e2cd113.chunk.js": "https://yannickdedecker.github.io/Cookr/static/js/2.5e2cd113.chunk.js",
-    "static/js/2.5e2cd113.chunk.js.map": "https://yannickdedecker.github.io/Cookr/static/js/2.5e2cd113.chunk.js.map",
+    "static/js/2.ebb8b6c3.chunk.js": "https://yannickdedecker.github.io/Cookr/static/js/2.ebb8b6c3.chunk.js",
+    "static/js/2.ebb8b6c3.chunk.js.map": "https://yannickdedecker.github.io/Cookr/static/js/2.ebb8b6c3.chunk.js.map",
     "index.html": "https://yannickdedecker.github.io/Cookr/index.html",
     "static/css/2.150d169a.chunk.css.map": "https://yannickdedecker.github.io/Cookr/static/css/2.150d169a.chunk.css.map",
-    "static/css/main.c9a164cc.chunk.css.map": "https://yannickdedecker.github.io/Cookr/static/css/main.c9a164cc.chunk.css.map",
-    "static/js/2.5e2cd113.chunk.js.LICENSE.txt": "https://yannickdedecker.github.io/Cookr/static/js/2.5e2cd113.chunk.js.LICENSE.txt",
+    "static/css/main.53b6efdb.chunk.css.map": "https://yannickdedecker.github.io/Cookr/static/css/main.53b6efdb.chunk.css.map",
+    "static/js/2.ebb8b6c3.chunk.js.LICENSE.txt": "https://yannickdedecker.github.io/Cookr/static/js/2.ebb8b6c3.chunk.js.LICENSE.txt",
     "static/media/ContactForm.css": "https://yannickdedecker.github.io/Cookr/static/media/Background.3df2eb4b.png",
     "static/media/Profile-Pic.769d4061.png": "https://yannickdedecker.github.io/Cookr/static/media/Profile-Pic.769d4061.png",
     "static/media/contact-photo.2fe3ac3d.jpg": "https://yannickdedecker.github.io/Cookr/static/media/contact-photo.2fe3ac3d.jpg",
@@ -27,8 +27,8 @@
   "entrypoints": [
     "static/js/runtime-main.c86e735b.js",
     "static/css/2.150d169a.chunk.css",
-    "static/js/2.5e2cd113.chunk.js",
-    "static/css/main.c9a164cc.chunk.css",
-    "static/js/main.f2cdd002.chunk.js"
+    "static/js/2.ebb8b6c3.chunk.js",
+    "static/css/main.53b6efdb.chunk.css",
+    "static/js/main.f4df4d4b.chunk.js"
   ]
 }

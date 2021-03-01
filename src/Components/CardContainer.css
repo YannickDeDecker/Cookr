@@ -4,7 +4,7 @@
 
 .card{
     background: none;
-    min-height: 240px;
+    min-height: 230px;
 }
 
 .gallery-block{
@@ -19,12 +19,12 @@
 
 .gallery-block .heading h2{
     font-weight: bold;
-    font-size: 1.4rem;
+    font-size: 1.25rem;
     text-transform: uppercase;
 }
 
 .gallery-block.cards-gallery h6 {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 900; 
   text-transform: uppercase;
   color: white;
