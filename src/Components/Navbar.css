@@ -13,6 +13,7 @@
 
 .active{
     background-color: var(--light-orange);
+    transition: background-color 1s ease-in-out;
     padding: 8px 12px;
     color: var(--dark-bg-color) !important;
 }

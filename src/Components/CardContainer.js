@@ -27,7 +27,7 @@ export default class CardContainer extends Component {
                     <Link key={i} to={`/article/${item.name}`}>
                       <div className="card border-0 transform-on-hover">
                         <a className="lightbox" href={process.env.REACT_APP_BACKEND + "/" + item.imgmain}>
-                        <p className="tag">{item.hometag}</p>
+                        <h5 className="tag">{item.hometag}</h5>
                           <img
                             src={process.env.REACT_APP_BACKEND + "/" + item.imgmain}
                             alt={item.name}

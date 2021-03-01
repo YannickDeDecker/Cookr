@@ -3,15 +3,29 @@ import { Link } from "react-router-dom";
 import Skills from "../Components/Skills";
 import "./About.css";
 import profilePic from "../Images/Profile-Pic.png";
+import styled, { keyframes } from "styled-components";
+import { fadeInDown, fadeInRightBig } from "react-animations";
 
 const About = () => {
+  //ANIMATIONS
+  const bounceAnimation = keyframes`${fadeInDown}`;
+  const fadeAnimation = keyframes`${fadeInRightBig}`;
+  const BouncyDiv = styled.div`
+    animation: 2s ${bounceAnimation};
+  `;
+  const FadeDiv = styled.div`
+    animation: 2s ${fadeAnimation};
+  `;
+
   return (
     <div>
       <div className="about-container">
         <div className="container">
           <div className="row">
             <div className="colAbout col-md-6">
+            <BouncyDiv>
                 <h1>Over Mij</h1>
+                </BouncyDiv>
               <h2>
                 Ik ben een Grafisch Vormgever en Front-End Developer uit
                 Boortmeerbeek.
@@ -35,7 +49,9 @@ const About = () => {
               </p>
             </div>
             <div className="colAbout col-md-6">
+            <FadeDiv>
                 <img src={profilePic} alt="Profielfoto Yannick" />
+                </FadeDiv>
             </div>
           </div>
         </div>

@@ -48,7 +48,7 @@ const Navbar = (props) => {
                   Over mij
                 </NavLink>
               </li>
-              <li className="nav-item">
+              <li className="nav-item mr-5">
                 <NavLink
                   eventKey="3"
                   activeClassName="active"
