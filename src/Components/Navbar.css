@@ -1,29 +1,32 @@
-.nav-link{
-    font-size: 14px;
-    font-weight: 300;
-    letter-spacing: 0.3px;
-    text-transform: uppercase;
-    margin: 0 10px;
+.nav-item {
+  width: 7.5rem;
+  text-align: center;
 }
 
-.nav-item{
-    width: 120px;
-    text-align: center;
+.nav-link {
+  font-size: 0.9rem;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
 }
 
-.active{
-    background-color: var(--light-orange);
-    transition: background-color 1s ease-in-out;
-    padding: 8px 12px;
-    color: var(--dark-bg-color) !important;
+/* ACTIVE CLASS */
+
+.active {
+  background-color: var(--light-orange);
+  transition: background-color 1s ease-in-out;
+  padding: 0.5rem 0.75rem;
+  color: var(--dark-bg-color) !important;
 }
+
+/* RESPONSIVE CSS */
 
 @media only screen and (max-width: 992px) {
-    .navbar-nav{
-        margin-top: 2rem;
-    }
+  .navbar-nav {
+    margin-top: 2rem;
+  }
 
-    .nav-item{
-        margin: 0 auto;
-    }
+  .nav-item {
+    margin: 0 auto;
+  }
 }

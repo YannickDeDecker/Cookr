@@ -1,23 +1,31 @@
 import React, { Component } from "react";
 import { HashRouter as Router, Route } from "react-router-dom";
+
+//Import pages
 import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";
-import Navbar from "./Components/Navbar";
-import Footer from "./Components/Footer";
 import Article from "./Pages/Article";
 import Searchpage from "./Pages/Searchpage";
+
+//Import components
+import Navbar from "./Components/Navbar";
+import Footer from "./Components/Footer";
 import LoadingPage from "./Components/LoadingPage";
 
 export default class App extends Component {
+  //Loading page setup
   constructor(props) {
     super(props);
     this.state = {
       loading: true,
     };
+    
+    //ONLY FOR TESTING:
     // setTimeout(() => {
     //     this.setState({loading:false})
     // }, 5000);
+    
     fetch(process.env.REACT_APP_BACKEND).then(() =>
       this.setState({ loading: false })
     );
@@ -25,7 +33,7 @@ export default class App extends Component {
 
   render() {
     if (this.state.loading) {
-      return <LoadingPage/>;
+      return <LoadingPage />;
     } else {
       return (
         <div className="App">

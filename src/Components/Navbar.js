@@ -1,10 +1,12 @@
 import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
 import SearchBar from "./SearchBar";
 import NavbarBrand from "./NavbarBrand";
-import { NavLink } from "react-router-dom";
+
+//import CSS file
 import "./Navbar.css";
 
-const Navbar = (props) => {
+const Navbar = () => {
   const [isNavCollapsed, setIsNavCollapsed] = useState(true);
   const handleNavCollapse = () => setIsNavCollapsed(!isNavCollapsed);
 
@@ -25,7 +27,10 @@ const Navbar = (props) => {
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div className={`${isNavCollapsed ? 'collapse' : ''} navbar-collapse`} id="navbarSupportedContent">
+          <div
+            className={`${isNavCollapsed ? "collapse" : ""} navbar-collapse`}
+            id="navbarSupportedContent"
+          >
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
                 <NavLink
@@ -48,7 +53,7 @@ const Navbar = (props) => {
                   Over mij
                 </NavLink>
               </li>
-              <li className="nav-item mr-5">
+              <li className="nav-item">
                 <NavLink
                   eventKey="3"
                   activeClassName="active"
@@ -58,7 +63,7 @@ const Navbar = (props) => {
                   Contact
                 </NavLink>
               </li>
-              <SearchBar/>
+              <SearchBar />
             </ul>
           </div>
         </div>

@@ -9,6 +9,7 @@ import {
 import "./Article.css";
 import styled, { keyframes } from "styled-components";
 import { fadeInDown, slideInUp } from "react-animations";
+import { Spinner } from "reactstrap";
 
 function Article() {
   const [isLoading, setLoading] = useState(true);
@@ -40,7 +41,12 @@ function Article() {
   }, []);
 
   if (isLoading) {
-    return <span>Loading</span>;
+    return (
+      <div className="article-loading">
+        <Spinner style={{ width: "3rem", height: "3rem" }} />{" "}
+        <h1>Loading Recipes...</h1>
+      </div>
+    );
   } else {
     return (
       <div>
@@ -68,7 +74,7 @@ function Article() {
         </div>
         <div className="container">
           <div id="main-recipe-container" className="row">
-            <div id="col-left" className="col-md-3">
+            <div id="col-left" className="col-lg-3">
               <div id="white-background">
                 <div id="default-list" className="d-flex">
                   <p>
@@ -89,7 +95,7 @@ function Article() {
                 </ul>
               </div>
             </div>
-            <div id="col-right" className="col-md-9">
+            <div id="col-right" className="col-lg-9">
               <h3>Instructies</h3>
               <ul id="instructions-list">
                 {recipe.instructions.map((item, index) => (
