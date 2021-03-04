@@ -84,7 +84,7 @@ const Contact = () => {
               </FadeDiv>
             </div>
           </div>
-        </div>
+        </div> 
       </div>
       <div className="container">
         <ContactForm />

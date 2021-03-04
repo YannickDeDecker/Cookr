@@ -52,7 +52,6 @@
 #tag-list{
     display: flex;
     list-style: none;
-    color: var(--light-orange);
     text-transform: uppercase;
     letter-spacing: 5px;
     margin: 0 0 10px 0;
@@ -223,10 +222,21 @@
       text-align: center;
     }
   
-    #tag-list li {
-      line-height: 1.5;
-      font-size: 0.8rem;
-      padding: 0 3rem;
-      text-align: center;
+    #tag-list{
+        letter-spacing: 2px;
+        margin: 0 0 10px 0;
+    }
+    
+    #tag-list li{
+        font-size: 0.5rem;
+    }
+    
+    #tag-list li:not(:nth-of-type(1))::before{
+        content: '|';
+        margin-left: 2px;
+    }
+
+    #col-right{
+        padding: 15px 20px 15px 20px;
     }
   }

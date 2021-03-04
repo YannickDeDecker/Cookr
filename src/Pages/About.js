@@ -28,7 +28,7 @@ const About = () => {
                 </BouncyDiv>
               <h2>
                 Ik ben een Grafisch Vormgever en Front-End Developer uit
-                Boortmeerbeek.
+                Boortmeerbeek. 
               </h2>
               <p>
                 Zowel in het dagelijkse leven als op professioneel vlak streef
