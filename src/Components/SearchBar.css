@@ -25,7 +25,7 @@ input:-internal-autofill-selected {
 
 /* RESPONSIVE SIZE */
 
-@media only screen and (max-width: 1024) {
+@media only screen and (max-width: 1024px) {
   #search-bar {
     margin: 1rem auto;
     width: 200px;
