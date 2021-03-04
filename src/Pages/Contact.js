@@ -26,7 +26,7 @@ const Contact = () => {
       <div className="contact-container">
         <div className="container">
           <div className="row">
-            <div className="col-md-6">
+            <div className="col-lg-6">
               <BouncyDiv>
                 <h1>bel me, mail me</h1>
               </BouncyDiv>
@@ -78,7 +78,7 @@ const Contact = () => {
                 </li>
               </ul>
             </div>
-            <div className="col-md-6">
+            <div className="col-lg-6">
               <FadeDiv>
                 <img className="contact-img" src={Photo}></img>
               </FadeDiv>

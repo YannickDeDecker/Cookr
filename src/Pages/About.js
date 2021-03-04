@@ -22,7 +22,7 @@ const About = () => {
       <div className="about-container">
         <div className="container">
           <div className="row">
-            <div className="colAbout col-md-6">
+            <div className="left col-lg-6">
             <BouncyDiv>
                 <h1>Over Mij</h1>
                 </BouncyDiv>
@@ -48,11 +48,7 @@ const About = () => {
                 .
               </p>
             </div>
-            <div className="colAbout col-md-6">
-            <FadeDiv>
-                <img src={profilePic} alt="Profielfoto Yannick" />
-                </FadeDiv>
-            </div>
+            <div className="right col-lg-6"></div>
           </div>
         </div>
       </div>
