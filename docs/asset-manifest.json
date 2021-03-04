@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "https://yannickdedecker.github.io/Cookr/static/css/main.b7ae7a3d.chunk.css",
-    "main.js": "https://yannickdedecker.github.io/Cookr/static/js/main.5dced02c.chunk.js",
-    "main.js.map": "https://yannickdedecker.github.io/Cookr/static/js/main.5dced02c.chunk.js.map",
+    "main.css": "https://yannickdedecker.github.io/Cookr/static/css/main.93216494.chunk.css",
+    "main.js": "https://yannickdedecker.github.io/Cookr/static/js/main.0a5787f5.chunk.js",
+    "main.js.map": "https://yannickdedecker.github.io/Cookr/static/js/main.0a5787f5.chunk.js.map",
     "runtime-main.js": "https://yannickdedecker.github.io/Cookr/static/js/runtime-main.c86e735b.js",
     "runtime-main.js.map": "https://yannickdedecker.github.io/Cookr/static/js/runtime-main.c86e735b.js.map",
     "static/css/2.150d169a.chunk.css": "https://yannickdedecker.github.io/Cookr/static/css/2.150d169a.chunk.css",
@@ -10,10 +10,10 @@
     "static/js/2.cdde95d4.chunk.js.map": "https://yannickdedecker.github.io/Cookr/static/js/2.cdde95d4.chunk.js.map",
     "index.html": "https://yannickdedecker.github.io/Cookr/index.html",
     "static/css/2.150d169a.chunk.css.map": "https://yannickdedecker.github.io/Cookr/static/css/2.150d169a.chunk.css.map",
-    "static/css/main.b7ae7a3d.chunk.css.map": "https://yannickdedecker.github.io/Cookr/static/css/main.b7ae7a3d.chunk.css.map",
+    "static/css/main.93216494.chunk.css.map": "https://yannickdedecker.github.io/Cookr/static/css/main.93216494.chunk.css.map",
     "static/js/2.cdde95d4.chunk.js.LICENSE.txt": "https://yannickdedecker.github.io/Cookr/static/js/2.cdde95d4.chunk.js.LICENSE.txt",
     "static/media/ContactForm.css": "https://yannickdedecker.github.io/Cookr/static/media/Background.3df2eb4b.png",
-    "static/media/Profile-Pic.769d4061.png": "https://yannickdedecker.github.io/Cookr/static/media/Profile-Pic.769d4061.png",
+    "static/media/About.css": "https://yannickdedecker.github.io/Cookr/static/media/Profile-Pic.769d4061.png",
     "static/media/contact-photo.2fe3ac3d.jpg": "https://yannickdedecker.github.io/Cookr/static/media/contact-photo.2fe3ac3d.jpg",
     "static/media/envelope-solid.6a243bb6.svg": "https://yannickdedecker.github.io/Cookr/static/media/envelope-solid.6a243bb6.svg",
     "static/media/github-brands.b84c6e43.svg": "https://yannickdedecker.github.io/Cookr/static/media/github-brands.b84c6e43.svg",
@@ -28,7 +28,7 @@
     "static/js/runtime-main.c86e735b.js",
     "static/css/2.150d169a.chunk.css",
     "static/js/2.cdde95d4.chunk.js",
-    "static/css/main.b7ae7a3d.chunk.css",
-    "static/js/main.5dced02c.chunk.js"
+    "static/css/main.93216494.chunk.css",
+    "static/js/main.0a5787f5.chunk.js"
   ]
 }
