@@ -2,20 +2,19 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Skills from "../Components/Skills";
 import "./About.css";
-import profilePic from "../Images/Profile-Pic.png";
 import styled, { keyframes } from "styled-components";
-import { fadeInDown, fadeInRightBig } from "react-animations";
+import { fadeInDown } from "react-animations";
 
 const About = () => {
   //ANIMATIONS
   const bounceAnimation = keyframes`${fadeInDown}`;
-  const fadeAnimation = keyframes`${fadeInRightBig}`;
+  // const fadeAnimation = keyframes`${fadeInRightBig}`;
   const BouncyDiv = styled.div`
     animation: 2s ${bounceAnimation};
   `;
-  const FadeDiv = styled.div`
-    animation: 2s ${fadeAnimation};
-  `;
+  // const FadeDiv = styled.div`
+  //   animation: 2s ${fadeAnimation};
+  // `;
 
   return (
     <div>

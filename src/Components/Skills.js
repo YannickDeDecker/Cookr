@@ -1,15 +1,16 @@
-import React from "react";
-import { PieChart } from "react-minimal-pie-chart";
-import "./Skills.css";
+//COMPONENT for pie chart
+
+import React from 'react';
+import { PieChart } from 'react-minimal-pie-chart';
+import './Skills.css';
 
 const skills = () => {
-  const lineWidth = 60;
   return (
-    <div className="skills-container">
-      <div className="container">
-        <div className="row">
-          <div className="col-md-4">
-            <h1 className="designer">60%</h1>
+    <div className='skills-container'>
+      <div className='container'>
+        <div className='row'>
+          <div className='col-md-4'>
+            <h1 className='designer'>60%</h1>
             <h2>Grafisch Vormgever</h2>
             <ul>
               <li>InDesign</li>
@@ -19,19 +20,19 @@ const skills = () => {
               <li>XD</li>
             </ul>
           </div>
-          <div className="col-md-4">
+          <div className='col-md-4'>
             <PieChart
-              className="pieChart"
+              className='pieChart'
               data={[
-                { title: "One", value: 40, color: "#fbbe88" },
-                { title: "Two", value: 60, color: "#569E78" },
+                { title: 'One', value: 40, color: '#fbbe88' },
+                { title: 'Two', value: 60, color: '#569E78' },
               ]}
               animate
               lineWidth={60}
             />
           </div>
-          <div className="col-md-4">
-            <h1 className="webdesigner">40%</h1>
+          <div className='col-md-4'>
+            <h1 className='webdesigner'>40%</h1>
             <h2>Front-End Developer</h2>
             <ul>
               <li>HTML5</li>

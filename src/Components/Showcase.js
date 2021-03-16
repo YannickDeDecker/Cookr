@@ -1,11 +1,11 @@
-import React from "react";
+import React from 'react';
 
 //Animation import items
-import styled, { keyframes } from "styled-components";
-import { fadeInDown, slideInUp } from "react-animations";
+import styled, { keyframes } from 'styled-components';
+import { fadeInDown, slideInUp } from 'react-animations';
 
 //Import CSS file
-import "./Showcase.css";
+import './Showcase.css';
 
 export default function Showcase() {
   //ANIMATIONS
@@ -21,7 +21,7 @@ export default function Showcase() {
   `;
 
   return (
-    <div id="showcase-container">
+    <div id='showcase-container'>
       <BouncyDiv>
         <h1>welkom bij cookr</h1>
       </BouncyDiv>

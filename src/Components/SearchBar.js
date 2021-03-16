@@ -1,14 +1,14 @@
-import React, { useState } from "react";
-import { useHistory } from "react-router-dom";
+import React, { useState } from 'react';
+import { useHistory } from 'react-router-dom';
 
 //Import CSS file
-import "./SearchBar.css";
+import './SearchBar.css';
 
 export default function SearchBar() {
   const history = useHistory();
-  const [query, setQuery] = useState("");
+  const [query, setQuery] = useState('');
 
-  const handleSubmit = async (details) => {
+  const handleSubmit = async () => {
     history.push(`/search/${query}`);
   };
 
@@ -18,12 +18,12 @@ export default function SearchBar() {
 
   return (
     <div>
-      <form onSubmit={handleSubmit} className="d-flex">
+      <form onSubmit={handleSubmit} className='d-flex'>
         <input
-          id="search-bar"
-          type="search"
-          placeholder="Zoek in recepten"
-          aria-label="Search"
+          id='search-bar'
+          type='search'
+          placeholder='Zoek in recepten'
+          aria-label='Search'
           value={query}
           onChange={handleChange}
         ></input>

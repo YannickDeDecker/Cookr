@@ -1,6 +1,6 @@
-import React, { Component } from "react";
-import CardContainer from "../Components/CardContainer";
-import Showcase from "../Components/Showcase";
+import React, { Component } from 'react';
+import CardContainer from '../Components/CardContainer';
+import Showcase from '../Components/Showcase';
 
 class Home extends Component {
   render() {
@@ -10,7 +10,7 @@ class Home extends Component {
           <Showcase />
           <CardContainer
             url={`${process.env.REACT_APP_BACKEND}/recipes`}
-            counter={false}
+            counter={false} //only visible on search results page
           />
         </main>
       </div>

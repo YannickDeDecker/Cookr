@@ -80,7 +80,7 @@ const Contact = () => {
             </div>
             <div className="col-lg-6">
               <FadeDiv>
-                <img className="contact-img" src={Photo}></img>
+                <img className="contact-img" alt="contact" src={Photo}></img>
               </FadeDiv>
             </div>
           </div>
