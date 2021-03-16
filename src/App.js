@@ -12,6 +12,7 @@ import Searchpage from "./Pages/Searchpage";
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
 import LoadingPage from "./Components/LoadingPage";
+import ScrollToTop from "./Components/ScrollToTop";
 
 export default class App extends Component {
   //Loading page setup
@@ -38,6 +39,7 @@ export default class App extends Component {
       return (
         <div className="App">
           <Router forceRefresh={true} basename={process.env.PUBLIC_URL}>
+          <ScrollToTop />
             <div>
               <Navbar />
             </div>
