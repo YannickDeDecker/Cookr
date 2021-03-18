@@ -4,7 +4,8 @@ import React from 'react';
 import { PieChart } from 'react-minimal-pie-chart';
 import './Skills.css';
 
-const skills = () => {
+const skills = (props) => {
+  let pierender = props.inview ? 100 : 0;
   return (
     <div className='skills-container'>
       <div className='container'>
@@ -29,6 +30,8 @@ const skills = () => {
               ]}
               animate
               lineWidth={60}
+              reveal={pierender}
+              animationDuration={1100}
             />
           </div>
           <div className='col-md-4'>

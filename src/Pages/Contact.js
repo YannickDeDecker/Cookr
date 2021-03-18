@@ -50,7 +50,7 @@ const Contact = () => {
                     alt="Mail Back"
                     src={Website}
                   ></img>
-                  Under Construction
+                 <a href="http://yannickdedecker.be" target="_blank">www.yannickdedecker.be</a>
                 </li>
                 <li className="figure">
                   <img
@@ -58,7 +58,7 @@ const Contact = () => {
                     alt="Mail Back"
                     src={LinkedIn}
                   ></img>
-                  /in/yannickdedecker
+                  <a href="https://www.linkedin.com/in/yannickdedecker/" target="_blank">/yannickdedecker</a>
                 </li>
                 <li className="figure">
                   <img
@@ -66,7 +66,7 @@ const Contact = () => {
                     alt="Mail Back"
                     src={Instagram}
                   ></img>
-                  /iamyannickdd
+                  <a href="https://www.instagram.com/iamyannickdd/" target="_blank">/iamyannickdd</a>
                 </li>
                 <li className="figure">
                   <img
@@ -74,14 +74,11 @@ const Contact = () => {
                     alt="Mail Back"
                     src={Github}
                   ></img>
-                  /YannickDeDecker
+                  <a href="https://github.com/YannickDeDecker" target="_blank">/YannickDeDecker</a>
                 </li>
               </ul>
             </div>
-            <div className="col-lg-6">
-              <FadeDiv>
-                <img className="contact-img" alt="contact" src={Photo}></img>
-              </FadeDiv>
+            <div className="contact-photo col-lg-6">
             </div>
           </div>
         </div> 
