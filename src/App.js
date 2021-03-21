@@ -27,6 +27,7 @@ export default class App extends Component {
     //     this.setState({loading:false})
     // }, 5000);
 
+    //FETCH LOADING SCREEN
     fetch(process.env.REACT_APP_BACKEND).then(() =>
       this.setState({ loading: false })
     );
@@ -38,7 +39,7 @@ export default class App extends Component {
     } else {
       return (
         <div className='App'>
-          <Router forceRefresh={true} basename={process.env.PUBLIC_URL}>
+          <Router forceRefresh={true}>
             <ScrollToTop />
             <div>
               <Navbar />

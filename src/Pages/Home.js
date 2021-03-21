@@ -9,7 +9,7 @@ class Home extends Component {
         <main>
           <Showcase />
           <CardContainer
-            url={`${process.env.REACT_APP_BACKEND}/recipes`}
+            url={`${process.env.REACT_APP_BACKEND}/recipes`} //link to back-end
             counter={false} //only visible on search results page
           />
         </main>
