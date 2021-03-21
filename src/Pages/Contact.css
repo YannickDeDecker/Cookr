@@ -72,6 +72,7 @@ body {
 @media only screen and (max-width: 768px) {
   .contact-container {
     text-align: center;
+    padding: 2.2rem 1rem 0 1rem;
   }
 
   .contact-container ul {
@@ -79,13 +80,14 @@ body {
   }
 
   .contact-container h1 {
-    padding: 10px 20px;
+    padding: 0.8rem 1.5rem;
     font-size: 1.5rem;
-    margin: 25px 0 25px 0;
+    margin: 1.5rem 0 1.5rem 0;
+    text-align: center;
   }
 
   .contact-container h2 {
     font-size: 1.5rem;
-    padding: 0 30px;
+    padding: 0 2rem;
   }
 }

@@ -8,7 +8,8 @@ import './Navbar.css';
 
 const Navbar = () => {
   const [isNavCollapsed, setIsNavCollapsed] = useState(true);
-  const handleNavCollapse = () => setIsNavCollapsed(!isNavCollapsed);
+  const toggleNavCollapse = () => setIsNavCollapsed(!isNavCollapsed);
+  const setNavCollapsed = () => setIsNavCollapsed(true);
 
   return (
     <div>
@@ -23,7 +24,7 @@ const Navbar = () => {
             aria-controls='navbarSupportedContent'
             aria-expanded={!isNavCollapsed ? true : false}
             aria-label='Toggle navigation'
-            onClick={handleNavCollapse}
+            onClick={toggleNavCollapse}
           >
             <span className='navbar-toggler-icon'></span>
           </button>
@@ -39,6 +40,7 @@ const Navbar = () => {
                   activeClassName='active'
                   className='nav-link'
                   to='/'
+                  onClick={setNavCollapsed}
                 >
                   Recepten
                 </NavLink>
@@ -49,6 +51,7 @@ const Navbar = () => {
                   activeClassName='active'
                   className='nav-link'
                   to='/about'
+                  onClick={setNavCollapsed}
                 >
                   Over mij
                 </NavLink>
@@ -59,6 +62,7 @@ const Navbar = () => {
                   activeClassName='active'
                   className='nav-link'
                   to='/contact'
+                  onClick={setNavCollapsed}
                 >
                   Contact
                 </NavLink>
